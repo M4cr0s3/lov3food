@@ -24,10 +24,10 @@
             <nav class="nav">
                 <ul>
                     <li><a href="#" class="links active">Главная</a></li>
-                    <li><a href="#" class="links">О нас</a></li>
-                    <li><a href="#" class="links">Наши работы</a></li>
+                    <li><a href="#about" class="links">О нас</a></li>
+                    <li><a href="#works" class="links">Наши работы</a></li>
                     <li><a href="#advantages" class="links">Преимущества</a></li>
-                    <li><a href="#" class="links">Специалисты</a></li>
+                    <li><a href="#professionals" class="links">Специалисты</a></li>
                 </ul>
             </nav>
             <div class="burger-menu">
@@ -36,10 +36,10 @@
                 </a>
                 <nav class="burger-menu_nav">
                     <a href="#" class="burger-menu_link">Главная</a>
-                    <a href="#" class="burger-menu_link">О нас</a>
-                    <a href="#" class="burger-menu_link">Наши работы</a>
+                    <a href="#about" class="burger-menu_link">О нас</a>
+                    <a href="#works" class="burger-menu_link">Наши работы</a>
                     <a href="#advantages" class="burger-menu_link">Преимущества</a>
-                    <a href="#" class="burger-menu_link">Специалисты</a>
+                    <a href="#professionals" class="burger-menu_link">Специалисты</a>
                 </nav>
                 <div class="burger-menu_overlay"></div>
             </div>
@@ -58,7 +58,7 @@
                         половинкой.
                     </p>
                 </div>
-                <a href="#" class="btn btn-lg btn-rent mt-4">Забронировать</a>
+                <a href="reservation.php" class="btn btn-lg btn-rent mt-4">Забронировать</a>
             </div>
         </div>
     </div>
@@ -69,9 +69,8 @@
 
 <main>
     <!--        О НАС   -->
-    <section class="about-us">
-        <div class="wrapper-us">
-            <div class="container container-us"></div>
+    <section class="about-us" id="about">
+        <div class="container-us">
             <div class="row">
                 <div class="col d-flex justify-content-center">
                     <img src="./assets/images/about-us-1.png" alt="a" class="photo-us">
@@ -113,10 +112,9 @@
                     </div>
                 </div>
                 <div class="col d-flex justify-content-center">
-                    <img src="./assets/images/abouts-us-2.png" alt="a" class="photo-us">
+                    <img src="./assets/images/about-us-2.png" alt="a" class="photo-us">
                 </div>
             </div>
-        </div>
         </div>
     </section>
     <!--        НАШИ ПРЕИМУЩЕСТВА   -->
@@ -164,42 +162,7 @@
         </div>
     </section>
     <!--        НАШИ ПРОФЕССИОНАЛЫ      -->
-<!--    <section class="our-professionals">-->
-<!--        <div class="title d-flex flex-column justify-content-center align-items-center">-->
-<!--            <h2 class="text-center title-tl">-->
-<!--                Наши профессионалы-->
-<!--            </h2>-->
-<!--            <img src="./assets/images/delim_small.png" alt="" class="delim">-->
-<!--            <p class="title-text text-center">-->
-<!--                Наш ресторан по праву может гордиться своими поварами.<br>-->
-<!--                Ведь данные люди просто искуссные мастера своего дела.-->
-<!--            </p>-->
-<!--        </div>-->
-<!--        <div class="container mt-5 d-flex">-->
-<!--            <div class="row">-->
-<!--                <div class="chef-photo">-->
-<!--                    &lt;!&ndash;                    <img src="./assets/images/chef-ph1.jpg" alt="" class="chef">&ndash;&gt;-->
-<!--                </div>-->
-<!--                <div class="chef-info d-flex flex-column align-items-end justify-content-between">-->
-<!--                    <div class="chef-name d-flex justify-content-end flex-column align-items-end">-->
-<!--                        <h3>Шинхуан Хуин</h3>-->
-<!--                        <div class="chef-job-title">-->
-<!--                            <p>шеф-повар нашего ресторана</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="chef-about text-end">-->
-<!--                        <p>В мире высокой кулинарии существует множество <br>-->
-<!--                            знаменитых поваров, но немногие из них могут <br> сравниться с Шинхуаном Хуином. Этот талантливый <br>-->
-<!--                            кулинарный мастер известен своими неподражаемыми <br> умениями и уникальными методами приготовления блюд,-->
-<!--                            <br> которые завораживают даже самых искушенных гурманов.</p>-->
-<!--                    </div>-->
-<!--                    <button class="btn btn-lg btn-examples d-flex justify-content-center align-items-center">Примеры работ</button>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </section>-->
-
-    <section class="our-professionals">
+    <section class="our-professionals" id="professionals">
         <div class="title d-flex flex-column justify-content-center align-items-center">
             <h2 class="text-center title-tl">
                 Наши профессионалы
@@ -220,34 +183,9 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
-                    <div class="container mt-5 d-flex">
-                        <div class="row">
-                            <div class="chef-photo">
-                                <!--                    <img src="./assets/images/chef-ph1.jpg" alt="" class="chef">-->
-                            </div>
-                            <div class="chef-info d-flex flex-column align-items-end justify-content-between">
-                                <div class="chef-name d-flex justify-content-end flex-column align-items-end">
-                                    <h3>Шинхуан Хуин</h3>
-                                    <div class="chef-job-title">
-                                        <p>шеф-повар нашего ресторана</p>
-                                    </div>
-                                </div>
-                                <div class="chef-about text-end">
-                                    <p>В мире высокой кулинарии существует множество <br>
-                                        знаменитых поваров, но немногие из них могут <br> сравниться с Шинхуаном Хуином. Этот талантливый <br>
-                                        кулинарный мастер известен своими неподражаемыми <br> умениями и уникальными методами приготовления блюд,
-                                        <br> которые завораживают даже самых искушенных <br>
-                                        гурманов.</p>
-                                </div>
-                                <button class="btn btn-lg btn-examples d-flex justify-content-center align-items-center">Примеры работ</button>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="2000">
                 <div class="container mt-5 d-flex">
                     <div class="row">
-                        <div class="chef-photo">
+                        <div class="chef-photo cph1">
                             <!--                    <img src="./assets/images/chef-ph1.jpg" alt="" class="chef">-->
                         </div>
                         <div class="chef-info d-flex flex-column align-items-end justify-content-between">
@@ -261,10 +199,35 @@
                                 <p>В мире высокой кулинарии существует множество <br>
                                     знаменитых поваров, но немногие из них могут <br> сравниться с Шинхуаном Хуином. Этот талантливый <br>
                                     кулинарный мастер известен своими неподражаемыми <br> умениями и уникальными методами приготовления блюд,
-                                    <br> которые завораживают даже самых искушенных <br>
+                                    <br> которые завораживают даже самых искушенных
                                     гурманов.</p>
                             </div>
-                            <button class="btn btn-lg btn-examples d-flex justify-content-center align-items-center">Примеры работ</button>
+                            <button class="btn btn-lg btn-examples d-flex justify-content-center align-items-center" data-bs-toggle="modal" data-bs-target="#shinh">Примеры работ</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <div class="container mt-5 d-flex">
+                    <div class="row">
+                        <div class="chef-photo cph2">
+                            <!--                    <img src="./assets/images/chef-ph1.jpg" alt="" class="chef">-->
+                        </div>
+                        <div class="chef-info d-flex flex-column align-items-end justify-content-between">
+                            <div class="chef-name d-flex justify-content-end flex-column align-items-end">
+                                <h3>Яна Цист</h3>
+                                <div class="chef-job-title">
+                                    <p>помощник шеф повара</p>
+                                </div>
+                            </div>
+                            <div class="chef-about text-end">
+                                <p>В мире высокой кулинарии существует множество <br>
+                                    знаменитых поваров, но немногие из них могут <br> сравниться с Шинхуаном Хуином. Этот талантливый <br>
+                                    кулинарный мастер известен своими неподражаемыми <br> умениями и уникальными методами приготовления блюд,
+                                    <br> которые завораживают даже самых искушенных
+                                    гурманов.</p>
+                            </div>
+                            <button class="btn btn-lg btn-examples d-flex justify-content-center align-items-center" data-bs-toggle="modal" data-bs-target="#yana">Примеры работ</button>
                         </div>
                     </div>
                 </div>
@@ -272,30 +235,89 @@
             <div class="carousel-item">
                 <div class="container mt-5 d-flex">
                     <div class="row">
-                        <div class="chef-photo">
+                        <div class="chef-photo cph3">
                             <!--                    <img src="./assets/images/chef-ph1.jpg" alt="" class="chef">-->
                         </div>
                         <div class="chef-info d-flex flex-column align-items-end justify-content-between">
                             <div class="chef-name d-flex justify-content-end flex-column align-items-end">
-                                <h3>Шинхуан Хуин</h3>
+                                <h3>Мамат Рахал</h3>
                                 <div class="chef-job-title">
-                                    <p>шеф-повар нашего ресторана</p>
+                                    <p>сотэшеф</p>
                                 </div>
                             </div>
                             <div class="chef-about text-end">
                                 <p>В мире высокой кулинарии существует множество <br>
                                     знаменитых поваров, но немногие из них могут <br> сравниться с Шинхуаном Хуином. Этот талантливый <br>
                                     кулинарный мастер известен своими неподражаемыми <br> умениями и уникальными методами приготовления блюд,
-                                    <br> которые завораживают даже самых искушенных <br>
+                                    <br> которые завораживают даже самых искушенных
                                     гурманов.</p>
                             </div>
-                            <button class="btn btn-lg btn-examples d-flex justify-content-center align-items-center">Примеры работ</button>
+                            <button class="btn btn-lg btn-examples d-flex justify-content-center align-items-center" data-bs-toggle="modal" data-bs-target="#mamat">Примеры работ</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+<!--    НАШИ РАБОТЫ     -->
+    <section class="our-works" id="works">
+        <div class="title d-flex flex-column justify-content-center align-items-center">
+            <h2 class="text-center title-tl fs-1">
+                Наши работы
+            </h2>
+            <img src="./assets/images/delim_small2.png" alt="" class="delim">
+        </div>
+        <div class="container mt-5">
+            <div class="row d-flex justify-content-between">
+                <div class="col-xl-4 col-md-12 d-flex flex-column justify-content-center align-items-center work-card">
+                    <img src="./assets/images/work1.png" alt="">
+                    <p class="work-name text-center text-white fs-4 p-3">
+                        Рулетики из баклажанов
+                        с рикоттой
+                    </p>
+                    <img src="./assets/images/small_white_delim.png" alt="" style="height: 19px; width: 62px">
+                </div>
+                <div class="col-xl-4 col-md-12 d-flex flex-column justify-content-center align-items-center work-card">
+                    <img src="./assets/images/work2.png" alt="">
+                    <p class="work-name text-center text-white fs-4 p-3">
+                        Лосось на гриле<br>
+                        с моллюсками
+                    </p>
+                    <img src="./assets/images/small_white_delim.png" alt="" style="height: 19px; width: 62px">
+                </div>
+                <div class="col-xl-4 col-md-12 d-flex flex-column justify-content-center align-items-center work-card">
+                    <img src="./assets/images/work3.png" alt="">
+                    <p class="work-name text-center text-white fs-4 p-3">
+                        Икра кростини <br>
+                        с лимоном
+                    </p>
+                    <img src="./assets/images/small_white_delim.png" alt="" style="height: 19px; width: 62px">
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--    HOW TO FIND US     -->
+    <section class="find-us">
+        <div class="container">
+            <div class="title d-flex flex-column justify-content-center align-items-center video-text">
+                <h2 class="text-center title-tl">
+                    Как можно нас найти?
+                </h2>
+                <img src="./assets/images/delim_small.png" alt="" class="delim">
+                <p class="title-text text-center">
+                     Всё очень просто! Воспользуйтесь интерактивной картой<br> и с легкостью рассчитайте насколько легко Вам
+                    добраться до нашего заведения.
+                </p>
+            </div>
+        </div>
+        <div class="container mt-3">
+            <div class="map">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Abbe146b7f076de52b0f842ece719f33597d74eca778ddf32dc54ed2f7cd7ba54&amp;source=constructor" frameborder="0"></iframe>
+            </div>
+        </div>
+    </section>
 
     <section class="services-kids">
         <div class="container">
@@ -340,6 +362,150 @@
 
 </main>
 
+<div class="modal fade" id="shinh" tabindex="-1" aria-labelledby="shinhLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="shinhLabel">Примеры работ</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+            <div class="modal-body">
+                <div id="shinhControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner modalInner">
+                        <div class="carousel-item active">
+                            <img src="./assets/images/work1.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/work2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/work3.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev h-100" type="button" data-bs-target="#shinhControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next h-100" type="button" data-bs-target="#shinhControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                    </button>
+                </div>
+                <div class="row mt-3">
+                    <div class="container">
+                        <div class="description-examples">
+                            <span>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                A ad animi aspernatur consectetur deserunt dolorum esse eveniet inventore, ipsum iusto maiores maxime
+                                minima nobis obcaecati odio odit perferendis provident qui quis reiciendis rem reprehenderit soluta tenetur?
+                                Aperiam earum inventore suscipit?
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary btn-examples" data-bs-dismiss="modal">Закрыть</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="yana" tabindex="-1" aria-labelledby="yanaLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="yanaLabel">Примеры работ</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+            <div class="modal-body">
+                <div id="yanaControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner modalInner">
+                        <div class="carousel-item active">
+                            <img src="./assets/images/work1.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/work2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/work3.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev h-100" type="button" data-bs-target="#yanaControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next h-100" type="button" data-bs-target="#yanaControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                    </button>
+                </div>
+                <div class="row mt-3">
+                    <div class="container">
+                        <div class="description-examples">
+                            <span>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                A ad animi aspernatur consectetur deserunt dolorum esse eveniet inventore, ipsum iusto maiores maxime
+                                minima nobis obcaecati odio odit perferendis provident qui quis reiciendis rem reprehenderit soluta tenetur?
+                                Aperiam earum inventore suscipit?
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary btn-examples" data-bs-dismiss="modal">Закрыть</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="mamat" tabindex="-1" aria-labelledby="mamatLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="mamatLabel">Примеры работ</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+            <div class="modal-body">
+                <div id="mamatControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner modalInner">
+                        <div class="carousel-item active">
+                            <img src="./assets/images/work1.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/work2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/work3.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev h-100" type="button" data-bs-target="#mamatControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next h-100" type="button" data-bs-target="#mamatControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                    </button>
+                </div>
+                <div class="row mt-3">
+                    <div class="container">
+                        <div class="description-examples">
+                            <span>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                A ad animi aspernatur consectetur deserunt dolorum esse eveniet inventore, ipsum iusto maiores maxime
+                                minima nobis obcaecati odio odit perferendis provident qui quis reiciendis rem reprehenderit soluta tenetur?
+                                Aperiam earum inventore suscipit?
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary btn-examples" data-bs-dismiss="modal">Закрыть</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script src="./assets/js/bootstrap.bundle.min.js"></script>
 <script src="./assets/js/bootstrap.min.js"></script>
