@@ -74,7 +74,7 @@
                     </a>
                     <nav class="burger-menu_nav">
                         <a href="#" class="burger-menu_link">Бронирование</a>
-                        <a href="index.php" class="burger-menu_link">Главная</a>
+                        <a href="index.html" class="burger-menu_link">Главная</a>
                     </nav>
                     <div class="burger-menu_overlay"></div>
                 </div>
