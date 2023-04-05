@@ -65,7 +65,7 @@
                 <nav class="nav">
                     <ul>
                         <li><a href="#" class="links active">Бронирование</a></li>
-                        <li><a href="index.php" class="links">Главная</a></li>
+                        <li><a href="index.html" class="links">Главная</a></li>
                     </ul>
                 </nav>
                 <div class="burger-menu">
